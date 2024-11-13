@@ -76,6 +76,8 @@ parameters:
     type: string
     default: 6.x
 
+pool: TEST 
+
 stages:
   - template: ../stages/build-package-stage.yml
     parameters:
